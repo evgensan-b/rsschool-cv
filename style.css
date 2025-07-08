@@ -1,0 +1,9 @@
+.name {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.desired_position {
+  text-transform: uppercase;
+  font-style: italic;
+}
