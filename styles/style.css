@@ -1,0 +1,166 @@
+.header {
+  display: flex;
+  justify-content: start;
+  gap: 100px;
+  background-color: hsl(216,20%,95%);
+}
+
+.portrait {
+  width: 367px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.name {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.desired_position {
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.left__side {
+  background-color: rgb(131, 129, 129);
+  padding: 30px 0;
+}
+
+.contacts {
+  padding-bottom: 30px;
+}
+
+.section-title {
+  text-transform: uppercase;
+  background-color: hsl(50,100%,56%);
+  padding-left: 30px;
+  border: 1px solid #000;
+}
+
+.contacts-list {
+  padding-left: 33px;
+  padding-top: 10px;
+  list-style: none;
+}
+
+.contacts-list-item {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.contacts-list__icon {
+  width: 25px;
+}
+
+.contacts-list__text {
+  padding-left: 10px;
+}
+
+.soft-skills {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+
+.soft-skills__list {
+  padding-left: 50px;
+  padding-top: 10px;
+  list-style: circle;
+}
+
+.languages {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+
+.languages__list {
+  padding-left: 50px;
+  padding-top: 10px;
+  list-style: circle;
+}
+
+.language_name {
+  font-weight: bold;
+}
+
+.right__side {
+  padding: 0 30px 30px;
+  background-color: hsl(216,20%,95%);
+}
+
+.about_me {
+  padding-bottom: 30px;
+}
+
+.about_me__text {
+  padding-top: 10px;
+}
+
+.education {
+  padding-bottom: 30px;
+}
+
+.education__list {
+  padding-top: 10px;
+  list-style: none;
+}
+
+.education__list__item {
+  display: flex;
+  gap: 30px;
+  padding: 10px 0;
+}
+
+.projects_and_hard_skills {
+  padding-bottom: 30px;
+}
+
+.projects_and_hard_skills__list {
+  padding-top: 10px;
+  padding-left: 20px;
+  list-style: circle;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+  background-color: hsl(50,100%,56%);
+}
+
+.footer-link__github {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-logo__github {
+  width: 48px;
+  height: 48px;
+}
+
+.footer-year {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+.footer-logo__rsschool {
+  height: 48px;
+}
