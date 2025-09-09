@@ -10,8 +10,210 @@
     <link rel="stylesheet" href="styles/style.css">
   </head>
   <body>
-    <header class="header"></header>
-    <main class="main"></main>
-    <footer class="footer"></footer>
+    <header class="header">
+      <img
+        src="images/Avatar.JPG"
+        alt="Portrait of Evgenii Bolshakov against the backdrop of nature"
+        class="portrait"
+      >
+      <div class="title">
+        <h1 class="name">evgenii bolshakov</h1>
+        <h2 class="desired_position">junior frontend developer</h2>
+      </div>
+    </header>
+    <main class="main">
+      <div class="left__side">
+        <section class="contacts">
+          <h3 class="section-title">Contacts</h3>
+          <ul class="contacts-list">
+            <li class="contacts-list-item">
+              <img
+                class="contacts-list__icon"
+                src="images/phone.svg"
+                alt="Phone icon"
+              >
+              <a class="contacts-list__text" href="tel:+79621577775"
+                >+7&nbsp;962&nbsp;157&nbsp;7775</a
+              >
+            </li>
+            <li class="contacts-list-item">
+              <img
+                class="contacts-list__icon"
+                src="images/email.svg"
+                alt="Email icon"
+              >
+              <a class="contacts-list__text" href="mailto:evgensan@yandex.ru"
+                >EvgenSan@yandex.ru</a
+              >
+            </li>
+            <li class="contacts-list-item">
+              <img
+                class="contacts-list__icon"
+                src="images/telegram.svg"
+                alt="Telegram icon"
+              >
+              <a
+                class="contacts-list__text"
+                href="https://t.me/example_EvgenSan_B"
+                >@EvgenSan_B</a
+              >
+            </li>
+            <li class="contacts-list-item">
+              <img
+                class="contacts-list__icon"
+                src="images/discord.svg"
+                alt="Discord icon"
+              >
+              <p class="contacts-list__text">evgensan-b</p>
+            </li>
+            <li class="contacts-list-item">
+              <img
+                class="contacts-list__icon"
+                src="images/instagram.svg"
+                alt="Instagram icon"
+              >
+              <p class="contacts-list__text">evgensan_b</p>
+            </li>
+          </ul>
+        </section>
+        <section class="soft-skills">
+          <h3 class="section-title">Soft Skills</h3>
+          <ul class="soft-skills__list">
+            <li>communication</li>
+            <li>hight speed operation</li>
+            <li>ability to work in a team</li>
+            <li>fast learning ability</li>
+            <li>perseverance, perfoming long and monotonous work</li>
+            <li>responsibility for achieving the result</li>
+            <li>the desire to learn and develop</li>
+          </ul>
+        </section>
+        <section class="languages">
+          <h3 class="section-title">Languages</h3>
+          <ul class="languages__list">
+            <li>
+              <p class="language_name">English</p>
+              <p>pre-intermediate - intermediate</p>
+            </li>
+            <li>
+              <p class="language_name">Russian</p>
+              <p>native</p>
+            </li>
+            <li>
+              <p class="language_name">German</p>
+              <p>mittelstufe</p>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="right__side">
+        <section class="about_me">
+          <h3 class="section-title">About me</h3>
+          <p class="about_me__text">
+            Looking to develop my web development skills, aiming for a Junior
+            Developer position in a company where I can gain valuable experience
+            and contribute to team projects
+          </p>
+        </section>
+        <section class="education">
+          <h3 class="section-title">Education</h3>
+          <ul class="education__list">
+            <li class="education__list__item">
+              <p>2009-2014</p>
+              <p>
+                Ivanovo State Power University named аfter V. I. Lenin,
+                electrical stations
+              </p>
+            </li>
+            <li class="education__list__item">
+              <p>2025-2026</p>
+              <p>YaPracticum, frontend developer</p>
+            </li>
+            <li class="education__list__item">
+              <p>2025-2026</p>
+              <p>The Rolling Scopes, JS/Front-end, React, Angular</p>
+            </li>
+          </ul>
+        </section>
+        <section class="projects_and_hard_skills">
+          <h3 class="section-title">Projects and hard skills</h3>
+          <ul class="projects_and_hard_skills__list">
+            <li class="projects_and_hard_skills__text">
+              <a href="https://github.com/evgensan-b/ono-tebe-nado-fd"
+                >project ono-tebe-nado(YaPracticum)</a
+              >
+            </li>
+            <li class="projects_and_hard_skills__text">
+              <a href="https://github.com/evgensan-b/posmotri-v-okno-fd"
+                >project posmotri-v-okno(YaPracticum)</a
+              >
+            </li>
+            <li class="projects_and_hard_skills__text">
+              <a
+                href="https://github.com/evgensan-b/slozhno-sosredotochitsya-fd"
+                >project slozhno-sosredotochitsya(YaPracticum)</a
+              >
+            </li>
+            <li class="projects_and_hard_skills__text">
+              <a href="https://github.com/evgensan-b/zakrivayuschiy-teg-f"
+                >project zakrivayuschiy-teg(YaPracticum)</a
+              >
+            </li>
+            <li class="projects_and_hard_skills__text">
+              <a href="https://github.com/evgensan-b/Museum"
+                >project Museum(RS SCHOOL)</a
+              >
+            </li>
+            <li class="projects_and_hard_skills__text">engineering</li>
+            <li class="projects_and_hard_skills__text">HTML5, CSS3</li>
+            <li class="projects_and_hard_skills__text">JavaScript Basics</li>
+            <li class="projects_and_hard_skills__text">GIT, GitHub</li>
+            <li class="projects_and_hard_skills__text">
+              Adobe Photoshop, Figma
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h3 class="section-title">Code example</h3>
+          <pre>
+            <code>
+              button.addEventListener('click', function () {
+              let randomElement = getRandomElement(phrases);
+              phrase.textContent = randomElement.text;
+              image.src = randomElement.image; 
+
+              if (randomElement.text.length &gt; 40) {
+                advice.style.fontSize = '33px';
+              } else {
+                advice.style.fontSize = '42px';
+              }
+            });
+            </code>
+          </pre>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <a
+        class="footer-link__github"
+        target="_blank"
+        href="https://github.com/evgensan-b"
+      >
+        <img
+          class="footer-logo__github"
+          src="images/github-142-svgrepo-com.svg"
+          alt="Logo github"
+        >
+        My GitHub
+      </a>
+      <p class="footer-year">2025</p>
+      <a target="_blank" href="https://rs.school/courses/javascript-ru">
+        <img
+          class="footer-logo__rsschool"
+          src="images/rs-school-logo.svg"
+          alt="Logo rs-school"
+        >
+      </a>
+    </footer>
   </body>
 </html>
